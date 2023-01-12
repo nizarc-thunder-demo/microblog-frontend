@@ -72,5 +72,10 @@
     "outputDirectory": "output/coverage/junit/",
     "outputName": "junit.xml",
     "usePathForSuiteName": "true"
+  },
+  {
+  "scripts": {
+    "start": "NODE_OPTIONS=--openssl-legacy-provider npm-run-all ..."
   }
+}
 }
